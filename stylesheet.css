@@ -91,10 +91,13 @@ body {
   }
 
   .btn-main {
-    margin: 100px 0 20px 0;
+    text-align: center;
+    margin: 20px 0;
   }
   
-  
+  .btn-main p{
+    margin: 10px 0;
+  }
   .signup {
     background-color: #239b76;
     
@@ -112,8 +115,10 @@ body {
   .btn {
     padding: 12px 24px;
     color: white;
-    opacity: 1;
-    border-radius: 4px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 7px;
+    text-align: center;
   }
 
   .fa {
@@ -163,9 +168,9 @@ body {
 
 .txt-contents {
   font-size: 15px;
-  color: #b3aeb5;
+ opacity: 0.5;
   display: inline-block;
-  width: 80%;
+  width: 75%;
   margin-top: 5px;
 }
 
